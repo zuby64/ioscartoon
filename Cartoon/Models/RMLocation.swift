@@ -6,3 +6,12 @@
 //
 
 import Foundation
+struct RMLocations:Codable {
+         let id : String
+         let name: String
+         let type: String
+         let dimensio: String
+         let residents: [String]
+         let url: String
+         let created: String
+}
